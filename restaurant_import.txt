@@ -1,3 +1,4 @@
 TODO: Task 1 - Write the mongo import command here
 
+mongoimport "mongodb://<redacted>@containers-us-west-65.railway.app:6932" -ddirectory -crestaurants --jsonArray restaurants.json --authenticationDatabase admin
 mongoimport -ddirectory -crestaurants --jsonArray restaurants.json
